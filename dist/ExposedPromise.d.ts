@@ -1,7 +1,7 @@
 /**
  * Exposes promise state and result to non async code.
  */
-declare class ExposedPromise<PromiseResult> {
+export declare class ExposedPromise<PromiseResult> {
     /**
      * The promise being exposed.
      */
@@ -47,3 +47,4 @@ interface ExposedPromiseCallBack<PromiseResult> {
 }
 declare type ExposedPromiseCallBacks<PromiseResult> = ExposedPromiseCallBack<PromiseResult> | ExposedPromiseCallBack<PromiseResult>[];
 declare type PromiseState = "pending" | "fulfilled" | "rejected";
+export {};

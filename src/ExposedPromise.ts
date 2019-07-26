@@ -1,7 +1,7 @@
 /**
  * Exposes promise state and result to non async code.
  */
-class ExposedPromise<PromiseResult> {
+export class ExposedPromise<PromiseResult> {
 
 	/**
 	 * The promise being exposed.

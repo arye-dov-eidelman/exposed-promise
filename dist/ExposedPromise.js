@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * Exposes promise state and result to non async code.
  */
@@ -77,3 +78,4 @@ class ExposedPromise {
         this.callbacks.forEach(callback => callback(this));
     }
 }
+exports.ExposedPromise = ExposedPromise;
